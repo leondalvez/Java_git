@@ -25,7 +25,7 @@ public class POOeje0 {
         Persona TerceraPersona = new Persona("Alberta", "Da", 30300300);
         
         // Imprimimos utilizando el nombre del objeto TerceraPersona
-        // pero 
+        // pero accediendo a sus atributos TerceraPersona.atributo
         System.out.println("Hola " + TerceraPersona.nombre + " " + TerceraPersona.apellido + ". Tú DNI es: " + TerceraPersona.dni);
     }
 
