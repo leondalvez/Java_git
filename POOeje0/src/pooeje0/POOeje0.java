@@ -21,8 +21,12 @@ public class POOeje0 {
         Persona PrimeraPersona = new Persona();
         // Instanciamos la segunda persona con el constructor con un parametro.
         Persona SegundaPersona = new Persona("Luciano");
-        // Instanciamos una tercera persona con tres parametros.
-        Persona TerceraPersona = new Persona("Alberta", "Da", 31);
+        // Instanciamos una tercera persona con tres parametros por constructor.
+        Persona TerceraPersona = new Persona("Alberta", "Da", 30300300);
+        
+        // Imprimimos utilizando el nombre del objeto TerceraPersona
+        // pero 
+        System.out.println("Hola " + TerceraPersona.nombre + " " + TerceraPersona.apellido + ". Tú DNI es: " + TerceraPersona.dni);
     }
 
 }

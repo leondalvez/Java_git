@@ -7,7 +7,8 @@ package entidad;
 
 /**
  *
- * Declaro la clase Persona en estado público.
+ * Declaro la clase Persona con el modificador de acceso público,
+ * así se puede acceder a los elementos de ésta clase desde cualquier clase.
  */
 public class Persona {
 
@@ -27,7 +28,7 @@ public class Persona {
 
     }
 
-    // Armo un constructor con parametro 
+    // Armo un constructor con un parametro 
     public Persona(String nombre) {
 
         this.nombre = nombre;
