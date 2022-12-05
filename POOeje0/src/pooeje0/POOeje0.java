@@ -29,12 +29,12 @@ public class POOeje0 {
         // Imprimimos lo mismo pero utilizando los getters 
         System.out.println("Hola " + TerceraPersona.getNombre() + " " + TerceraPersona.getApellido() + ". Tú DNI es: " + TerceraPersona.getDni());
         
-        //Utilizo un getter para modificar el atributo nombre de tercera persona
+        //Utilizo un setter para modificar el atributo nombre de tercera persona
         TerceraPersona.setNombre("Albertasa");
         
         // Imprimo para mostrar el cambio
         System.out.println("Hola " + TerceraPersona.getNombre() + " " + TerceraPersona.getApellido() + ". Tú DNI es: " + TerceraPersona.getDni());
-        
+          
     }
 
 }
